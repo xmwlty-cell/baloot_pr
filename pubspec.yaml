@@ -1,0 +1,23 @@
+name: baloot_pro
+description: Luxurious Baloot scorekeeper with custom recorded phrases and player photos.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  audioplayers: ^1.0.1
+  image_picker: ^1.0.4
+  record: ^4.4.0
+  path_provider: ^2.0.15
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/cardflip.mp3
+    - assets/sounds/win_default.mp3
+    - assets/sounds/lose_default.mp3
+    - assets/icons/app_icon.png
